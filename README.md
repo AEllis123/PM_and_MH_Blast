@@ -1,1 +1,1 @@
-#This code was used for creation of a blast database and sequence alignments. 
+#This information found in this directory was used for creation of a blast database and sequence alignments. Isolates of Pastuerella multocida were each used in a blast search against an isolate named Pm-64. 
