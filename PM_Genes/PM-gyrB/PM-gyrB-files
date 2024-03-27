@@ -6,7 +6,7 @@
 #SBATCH --error=/depot/john2185/data/ellis123/PM_blast_sequences/task01.error.out
 #SBATCH --job-name task01
 
-cp ../../PM
+cp ../../PM_BlastSequences/*blast-output.txt .
 
 touch PM-gyrB.fa
 
@@ -15,3 +15,5 @@ for i in *blast-output.txt;
   grep "gyrB" $i | cut -f 13 >> PM-gyrB.fa;
 done
 
+echo "End Time"
+date +"%d %B %Y %H:%M:%S"
