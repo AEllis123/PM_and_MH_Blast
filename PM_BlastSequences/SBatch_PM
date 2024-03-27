@@ -11,6 +11,9 @@ ml blast
 
 for x in ../PM_spades/*.fasta; do blastx -query $x -db ../Blast_Database/PM64_protein_db -num_threads 2 -evalue 1e-125 -max_target_seqs 10 -out $x-blast-output.txt -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq"; done
 
+#Blast outputs will be in same directory where the blast was run. Move them into a new directory for easier reference. 
+mv *blast-output.txt ../PM_BlastSequences
+
 
 echo "End Time"
 date +"%d %B %Y %H:%M:%S"
