@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch PM-gyrB.fa
+
+for i in *blast-output.txt;
+  do echo ">"$i >> PM-gyrB.fa;
+  grep "gyrB" $i | cut -f 13 >> PM-gyrB.fa;
+done
+
