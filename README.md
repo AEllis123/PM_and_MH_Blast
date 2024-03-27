@@ -1,2 +1,1 @@
-# This code was used for a blast database and alignment comparisons in Jalview.
-#This code
+#This code was used for creation of a blast database and sequence alignments. 
