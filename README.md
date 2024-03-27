@@ -1,1 +1,1 @@
-# PM_and_MH_Blast
+# This code was used for a blast database and alignment comparisons in Jalview.
