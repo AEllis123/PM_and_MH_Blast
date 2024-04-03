@@ -1,3 +1,3 @@
 Output files from the MH_BlastSequences directory was copied to MH-gyrA, MH-gyrB, MH-parC, and MH-parE. 
 
-The job submission files in each directory (i.e. MH-gyrA-files) was then used to grab parts of the gene sequence for alignment from each isolate and print it to one file labeled MH-gyrA.fa. The MH-gyrA.fa file was then downloaded to use in Jalview for seuqence alignment comparisons. 
+The job submission files in each directory (i.e. MH-gyrA-files) was then used to grab parts of the gene sequence for alignment from each isolate and print it to one file labeled based on the gene being search for, such as MH-gyrA.fa. The files, such as MH-gyrA.fa file, were then downloaded to use in Jalview for seuqence alignment comparisons. 
