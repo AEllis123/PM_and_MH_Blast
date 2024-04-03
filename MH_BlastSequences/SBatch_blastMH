@@ -2,17 +2,16 @@
 #SBATCH --time=3:00:00
 #SBATCH -A john2185
 #SBATCH -n 10
-#SBATCH --output=/depot/john2185/data/ellis123/PM_blast_sequences/task01.out
-#SBATCH --error=/depot/john2185/data/ellis123/PM_blast_sequences/task01.error.out
+#SBATCH --output=/depot/john2185/data/ellis123/MH_BlastSequences/task01.out
+#SBATCH --error=/depot/john2185/data/ellis123/MH_BlastSequences/task01.error.out
 #SBATCH --job-name task01
 
 ml bioinfo
 ml blast
 
-for x in ../MH_data/*.fasta; do blastx -query $x -db ../PM3_PM64/PM_protein_db -num_threads 2 -evalue 1e-125 -max_target_seqs 10 -out $x-blast-output.txt -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq"; done
+#Sequences located in MH_spades directory. 
 
+for x in ../MH_spades/*.fasta; do blastx -query $x -db ../Blast_Database/PM64_protein_db -num_threads 2 -evalue 1e-125 -max_target_seqs 10 -out $x-blast-output.txt -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq"; done
 
 echo "End Time"
 date +"%d %B %Y %H:%M:%S"
-
-#to run: sbatch <file-name>.slurm
