@@ -1,1 +1,1 @@
-These are the blast output files for Mannheimia after performing a blastx using the Pm64 database created in the previous directory Blast_Database.
+This directory contains the job submission file for performing a blastx using the Pm64 database created in the previous directory Blast_Database. Output files from the blast were created in this directory from the job. These files were then copied to each of the directories in MH_Genes (MH-gyrA, MH-gyrB, MH-parC, and MH-parE). 
