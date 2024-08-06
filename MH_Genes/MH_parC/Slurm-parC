@@ -2,11 +2,9 @@
 #SBATCH --time=3:00:00
 #SBATCH -A john2185
 #SBATCH -n 10
-#SBATCH --output=/depot/john2185/data/ellis123/MH_blast_sequences/task01.out
-#SBATCH --error=/depot/john2185/data/ellis123/MH_blast_sequences/task01.error.out
+#SBATCH --output=/scratch/bell/ellis123/MH_Blast/MH_BlastOut/task01.out
+#SBATCH --error=/scratch/bell/ellis123/MH_Blast/MH_BlastOut/task01.error.out
 #SBATCH --job-name task01
-
-cp ../../MH_BlastSequences/*blast-output.txt .
 
 touch MH-parC.fa
 
