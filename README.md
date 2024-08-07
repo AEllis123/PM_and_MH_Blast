@@ -1,1 +1,1 @@
-#This information found in this directory was used for creation of a blast database and sequence alignments. Isolates of Pastuerella multocida were each used in a blast search against an isolate named Pm-64. 
+#This information found in this directory was used for creation of a BLAST database and multiple sequence alignments for Pasteurella multocida (PM) and Mannheimia haemolytica (MH). 
