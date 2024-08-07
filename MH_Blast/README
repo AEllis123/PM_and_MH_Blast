@@ -2,4 +2,4 @@ This directory contains the scripts used to create a BLAST database (Slurm-MHBla
 
 Mh_RefGenes.txt are the genes used to create the database for the study "Phenotypic antibiotic resistance prediction in Mannheimia haemolytica isolates from cattle with bovine respiratory disease using resistance gene databases and machine learning models."
 
-Isolates used in this study can be found in BioProject PRJNA1115110 and BioProject PRJNA306895 (these isolates are from the study completed by Owen et al. 2017 https://doi.org/10.1534/g3.117.1137). 
+Isolates used in this study can be found in BioProject PRJNA1115110 and BioProject PRJNA306895 (these isolates are from the study completed by Owen et al. 2017 https://doi.org/10.1534/g3.117.1137) 
